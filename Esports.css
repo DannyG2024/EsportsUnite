@@ -1,0 +1,207 @@
+body, h1, h2, h3, h4, p, ul, li, figure, figcaption {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Ensure the body takes at least the full height of the viewport */
+    color: #3087d1;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url('finalprojectbackgroud.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: #000000;
+  background-color: #000000;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#name
+{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    margin: 0;
+    padding: 0;
+    color: #a911c9;
+    font-weight: bold;
+}
+
+/* Main content styles */
+#body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+}
+
+.featured-content-title {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2em;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0);
+    border: 20px solid rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px; /* Adjust as needed */
+}
+
+.Home,
+.Players,
+.Matches,
+.Tournaments {
+    margin-right: 20px;
+}
+
+.Home {
+    position: fixed;
+    top: 0;
+    right: 385px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #EEEEEE;
+    margin: 10px;
+    display: inline-block;
+
+}
+
+.Home a {
+    color: #EEEEEE;
+    text-decoration: none;
+}
+
+.Players {
+    position: fixed;
+    top: 0;
+    right: 300px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #EEEEEE;
+    margin: 10px;
+    display: inline-block;
+}
+
+.Players a {
+    color: #EEEEEE;
+    text-decoration: none;
+}
+
+.Matches {
+    position: fixed;
+    top: 0;
+    right: 210px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #EEEEEE;
+    margin: 10px;
+    display: inline-block;
+}
+
+.Matches a {
+    color: #EEEEEE;
+    text-decoration: none;
+}
+
+.Tournaments {
+    position: fixed;
+    top: 0;
+    right: 90px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #EEEEEE;
+    margin: 10px;
+    display: inline-block;
+}
+
+.Tournaments a {
+    color: #EEEEEE;
+    text-decoration: none;
+}
+
+/* Style each section */
+.left-section,
+.center-section,
+.right-section {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+/* Featured Tournaments styles */
+.prior-tournaments,
+.featured-tournaments {
+    margin-bottom: 20px;
+}
+
+.tournament {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Featured Players styles */
+.featured-players {
+    margin-bottom: 20px;
+}
+
+.player {
+    /* Add styles for the "players" class here */
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.match-section {
+    margin-bottom: 20px;
+}
+
+.match {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+
+/* Latest News styles */
+article {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+/* Footer styles */
+footer {
+    margin-top: auto; /* Push the footer to the bottom */
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 120%;
+}
+
+}
