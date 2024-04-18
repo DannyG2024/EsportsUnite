@@ -20,10 +20,13 @@
                 <input type="password" id="password" name="password" value="password" required>
             </div>
             <input type="submit" value="Login">
+            
+            <div class="form-group">
+                <p>Don't have an account? <a href="/register">Register</a></p> <!-- Change the register URL as needed -->
+            </div>
         </form>
-        <p>Don't have an account? <a href="/register">Register</a></p>
     </div>
-
+            
     <script>
         document.getElementById('login-form').addEventListener('submit', function(event) {
             event.preventDefault(); 
