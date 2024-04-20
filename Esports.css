@@ -230,6 +230,10 @@ footer {
 /* Styles for the login screen */
 
 .login-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 300px; /* Adjust width as needed */
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.7);
