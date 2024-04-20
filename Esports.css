@@ -217,12 +217,14 @@ article {
 
 /* Footer styles */
 footer {
-    margin-top: auto; /* Push the footer to the bottom */
     background-color: #333;
     color: white;
     padding: 20px;
     text-align: center;
-    width: 120%;
+    width: 100%;
+    position: fixed;
+    bottom: 0; /* Position the footer at the bottom of the viewport */
+    left: 0;
 }
 
 }
