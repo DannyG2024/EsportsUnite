@@ -230,60 +230,62 @@ footer {
 /* Styles for the login screen */
 
 .login-container {
-    width: 75%; /* Set to full width of parent container */
-    max-width: 200px; /* Adjust as needed */
-    margin: 0 auto; /* Center the container */
-    padding: 20px; /* Add some padding around the container */
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
-    border-radius: 8px; /* Add some rounding to the container's edges */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
-    text-align: center; /* Center-align text */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px; /* Adjust width as needed */
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
 }
 
 .login-container h2 {
-    margin-bottom: 20px; /* Add margin below the heading */
-    color: #FFFFFF; /* White text color */
+    margin-bottom: 20px;
+    color: #FFFFFF;
 }
 
 .login-container .form-group {
-    margin-bottom: 15px; /* Add some spacing between form groups */
+    margin-bottom: 15px;
 }
 
 .login-container label {
-    display: block; /* Ensure labels take full width */
-    margin-bottom: 5px; /* Add a small margin below labels */
-    color: #FFFFFF; /* White text color */
+    display: block;
+    margin-bottom: 5px;
+    color: #FFFFFF;
 }
 
 .login-container input[type="text"],
 .login-container input[type="password"] {
-    width: 100%; /* Full width of the container */
-    padding: 10px; /* Add padding inside the input fields */
-    border-radius: 4px; /* Add rounded corners */
-    border: 1px solid #ddd; /* Light gray border */
-    box-sizing: border-box; /* Maintain padding and border width */
-    margin-bottom: 10px; /* Add spacing below the input fields */
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    margin-bottom: 10px;
 }
 
 .login-container input[type="submit"] {
-    width: 100%; /* Full width of the container */
-    padding: 10px; /* Add padding inside the button */
-    background-color: #3087d1; /* Background color for the button */
-    color: #FFFFFF; /* White text color */
-    border: none; /* Remove border */
-    border-radius: 4px; /* Add rounded corners */
-    cursor: pointer; /* Pointer cursor on hover */
-    font-weight: bold; /* Bold font for the button */
-    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    width: 100%;
+    padding: 10px;
+    background-color: #3087d1;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
 }
 
 .login-container input[type="submit"]:hover {
-    background-color: #1c5a99; /* Darker blue on hover */
+    background-color: #1c5a99;
 }
 
 .login-container a {
-    color: #FFFFFF; /* White text color */
-    text-decoration: underline; /* Underline links */
-    display: block; /* Ensure links take full width */
-    margin-top: 20px; /* Add some margin above the link */
+    color: #FFFFFF;
+    text-decoration: underline;
+    display: block;
+    margin-top: 20px;
 }
