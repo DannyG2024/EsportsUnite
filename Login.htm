@@ -9,26 +9,26 @@
 </head>
 <body>
     <div id="body">
-        <div class="container">
-            <div class="login-container">
-        <h2>Login</h2>
-        <form id="login-form" action="#">
-            <div class="form-group">
-                <label for="username">Username:</label>
-                <input type="text" id="username" name="username" value="admin" required>
-            </div>
-            <div class="form-group">
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" value="password" required>
-            </div>
-            <input type="submit" value="Login">
-            
-            <div class="form-group">
-                <p>Don't have an account? <a href="/register">Register</a></p> <!-- Change the register URL as needed -->
-            </div>
-        </form>
-     </div>
-    </body>
+        <div class="login-container">
+            <h2>Login</h2>
+            <form id="login-form" action="#">
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" value="admin" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" value="password" required>
+                </div>
+                <input type="submit" value="Login">
+                <div class="form-group">
+                    <p>Don't have an account? <a href="/register">Register</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
     
     <script>
         document.getElementById('login-form').addEventListener('submit', function(event) {
